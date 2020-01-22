@@ -1,0 +1,71 @@
+.container{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 200px 1ft;
+	grid-template-areas:
+	"hd"
+	"main"
+	"ft";
+	background-color: #fffffc;
+	font-family: Arial, sans-serif;
+
+}
+.box{
+	border: 1px solid red;
+}
+.header{
+	grid-area: hd;
+	display: grid;
+	grid-template-areas:
+	"logo"
+	"nav";
+}
+.footer{
+	grid-area: ft;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.logo{
+	grid-area: logo;
+	font: 150%/1.6 'Lobster', arial, cursive;
+	text-align: center;
+}
+.nav{
+	grid-area: nav;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.nav_item{
+	text-decoration: none;
+	padding: 0 1em 2em;
+	color: black;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	grid-area: main;
+}
+@media(min-width: 600px){
+	.header{
+		grid-template-areas:
+		"logo logo logo logo nav nav nav nav";
+	}
+	.nav{
+		grid-area: nav;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.logo{
+		text-align: left;
+	}
+	.footer{
+		text-align: left;
+	}
+}

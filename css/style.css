@@ -1,6 +1,3 @@
+@import url(template.css);
 @import url(index.css);
-@import url(index_medium_media.css);
-@import url(index_large_media.css);
 @import url(blog.css);
-@import url(blog_medium_media.css);
-@import url(blog_large_media.css);
