@@ -10,9 +10,12 @@
 	font-family: Arial, sans-serif;
 
 }
+
 .box{
+	/* border for debugging */
 	/*border: 1px solid red;*/
 }
+
 .header{
 	grid-area: hd;
 	display: grid;
@@ -20,6 +23,7 @@
 	"logo"
 	"nav";
 }
+
 .footer{
 	margin: 10px 5px;
 	grid-area: ft;
@@ -33,6 +37,7 @@
 	color: firebrick;
 	text-align: center;
 }
+
 .nav{
 	grid-area: nav;
 	display: flex;
@@ -40,15 +45,17 @@
 	align-items: center;
 	justify-content: center;
 }
-.nav_item{
+
+.nav-item{
 	text-decoration: none;
-	padding: 1em 1em 1em;
+	padding: 1em 2em;
 	color: black;
 }
 
-.nav_item:hover{
+.nav-item:hover{
 	color: red;
 }
+
 .content{
 	display: flex;
 	flex-direction: column;
@@ -56,22 +63,37 @@
 	justify-content: center;
 	grid-area: main;
 }
+
 @media(min-width: 600px){
+
 	.header{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		max-width: 1000;
+
 		grid-template-areas:
 		"logo logo logo logo nav nav nav nav";
 	}
+
 	.nav{
+		width: 88%;
 		grid-area: nav;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: flex-end;
 	}
-	.logo{
-		text-align: left;
+
+	.nav-item{
+		padding: 1em 0 1em 2em;
 	}
-	.footer{
-		text-align: left;
+
+	.logo-container{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
 	}
+
 }

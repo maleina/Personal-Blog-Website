@@ -1,8 +1,8 @@
 
 /* card settings adapted from https://www.w3schools.com/howto/howto_css_cards.asp */
 .card {
-	margin: 5px;
-	width: 300px;
+	margin: 3px;
+	width: 295px;
 	height: 400px;
   	/* Add shadows to create card effect */
   	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -16,7 +16,7 @@
 
 .story-image{
 	width: auto;
-	height: 300px;
+	height: 295px;
 }
 
 .story-headline {
@@ -44,13 +44,16 @@
 }
 
 @media(min-width: 600px) and (max-width: 900px){
+
 	.card{
 		width: 500px;
 		height: 600px;
 	}
+
 	.story-image{
 		height: 500px;
 	}
+
 	.story-headline {
 		height: 100px;
 	}
@@ -73,21 +76,28 @@
 	}
 
 	.expanded-feature{
+		margin: 10px 0px;
 		width: 900px;
 		height: 450px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  		transition: 0.3s;
+	}
+
+	.expanded-feature::hover {
+  		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	}
 
 	#featured-image{
 		width: 600px;
-		height: auto;
+		height: 450px;
 	}
 
 	.featured-text{
-		width: 300px;
+		width: 280px;
 		height: 450px;
 		padding: 2px 15px;
 		display: flex;
@@ -111,22 +121,22 @@
 	}
 
 	.button{
-		margin: 5px;
+		margin: 5px 15px;
 	}
 
 	/* button settings adapted from https://www.bestcssbuttongenerator.com/#/7 */
 	.feature-button{
-		box-shadow: inset 0px 0px 5px 0px #29bbff;
+		box-shadow: inset 0 0 3px 0 #29bbff;
 		background-color: darkslateblue;
-		border-radius: 2px;
+		border-radius: 1px;
 		border: 1px solid dimgray;
 		display: inline-block;
 		cursor: pointer;
 		color: #fff;
 		font-size: 15px;
-		padding: 10px 30px;
+		padding: 10px 25px;
 		text-decoration: none;
-		text-shadow: 0px 1px 0px #263666;
+		text-shadow: 0 1px 0px #263666;
 	}
 
 	.feature-button:hover{
