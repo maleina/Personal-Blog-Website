@@ -14,7 +14,7 @@
   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.story-image{
+.story-image {
 	width: auto;
 	height: 295px;
 }
@@ -25,32 +25,32 @@
   	padding: 2px 10px;
 }
 
-.category{
+.category {
 	color: grey;
-
+	font-size: 0.9em;
 }
 
-.story-link{
+.story-link {
 	color: black;
 	text-decoration: none;
 }
 
-.story-link:hover{
+.story-link:hover {
 	color: red;
 }
 
-.expanded-feature{
+.expanded-feature {
 	display: none;
 }
 
-@media(min-width: 600px) and (max-width: 900px){
+@media(min-width: 600px) and (max-width: 900px) {
 
-	.card{
+	.card {
 		width: 500px;
 		height: 600px;
 	}
 
-	.story-image{
+	.story-image {
 		height: 500px;
 	}
 
@@ -59,23 +59,23 @@
 	}
 }
 
-@media(min-width: 901px){
-	.top-stories{
+@media(min-width: 901px) {
+	.top-stories {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
 	}
 
-	.featured{
+	.featured {
 		display: none;
 	}
 
-	.top-stories{
+	.top-stories {
 		margin: 10px 0px;
 	}
 
-	.expanded-feature{
+	.expanded-feature {
 		margin: 10px 0px;
 		width: 900px;
 		height: 450px;
@@ -91,12 +91,12 @@
   		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	}
 
-	#featured-image{
+	#featured-image {
 		width: 600px;
 		height: 450px;
 	}
 
-	.featured-text{
+	.featured-text {
 		width: 280px;
 		height: 450px;
 		padding: 2px 15px;
@@ -106,12 +106,12 @@
 		justify-content: flex-start;
 	}
 
-	.feature-description{
+	.feature-description {
 		color: dimgray;
 		margin-left: 5px;
 	}
 
-	.button-container{
+	.button-container {
 		width: 300px;
 		height: 100px;
 		display: flex;
@@ -120,12 +120,12 @@
 		justify-content: flex-end;
 	}
 
-	.button{
+	.button {
 		margin: 5px 15px;
 	}
 
 	/* button settings adapted from https://www.bestcssbuttongenerator.com/#/7 */
-	.feature-button{
+	.feature-button {
 		box-shadow: inset 0 0 3px 0 #29bbff;
 		background-color: darkslateblue;
 		border-radius: 1px;
@@ -139,12 +139,12 @@
 		text-shadow: 0 1px 0px #263666;
 	}
 
-	.feature-button:hover{
+	.feature-button:hover {
 		background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
 		background-color: #0688fa;
 	}
 
-	.feature-button:active{
+	.feature-button:active {
 		position: relative;
 		top: 1px;
 	}

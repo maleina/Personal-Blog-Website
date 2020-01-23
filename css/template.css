@@ -1,4 +1,4 @@
-.container{
+.page-container {
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 200px 1ft;
@@ -11,12 +11,12 @@
 
 }
 
-.box{
+.box {
 	/* border for debugging */
-	/*border: 1px solid red;*/
+	/* border: 1px solid red; */
 }
 
-.header{
+header {
 	grid-area: hd;
 	display: grid;
 	grid-template-areas:
@@ -24,21 +24,21 @@
 	"nav";
 }
 
-.footer{
+footer {
 	margin: 10px 5px;
 	grid-area: ft;
 	font-size: 0.8em;
 	text-align: center;
 }
 
-.logo{
+.logo {
 	grid-area: logo;
 	font: 100%/0.8 'Lobster', arial, cursive;
 	color: firebrick;
 	text-align: center;
 }
 
-.nav{
+nav {
 	grid-area: nav;
 	display: flex;
 	flex-direction: column;
@@ -46,17 +46,17 @@
 	justify-content: center;
 }
 
-.nav-item{
+.nav-item {
 	text-decoration: none;
 	padding: 1em 2em;
 	color: black;
 }
 
-.nav-item:hover{
+.nav-item:hover {
 	color: red;
 }
 
-.content{
+.content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -64,9 +64,9 @@
 	grid-area: main;
 }
 
-@media(min-width: 600px){
+@media(min-width: 600px) {
 
-	.header{
+	header {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -77,7 +77,7 @@
 		"logo logo logo logo nav nav nav nav";
 	}
 
-	.nav{
+	nav {
 		width: 88%;
 		grid-area: nav;
 		display: flex;
@@ -86,11 +86,11 @@
 		justify-content: flex-end;
 	}
 
-	.nav-item{
+	.nav-item {
 		padding: 1em 0 1em 2em;
 	}
 
-	.logo-container{
+	.logo-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
