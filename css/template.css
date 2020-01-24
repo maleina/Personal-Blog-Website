@@ -1,7 +1,16 @@
+.overall-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center
+}
+
+
 .page-container {
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 200px 1ft;
+	max-width: 1200px;
 	grid-template-areas:
 	"hd"
 	"main"
@@ -13,7 +22,7 @@
 
 .box {
 	/* border for debugging */
-	/* border: 1px solid red; */
+	/*border: 1px solid red; */
 }
 
 header {
@@ -43,7 +52,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .nav-item {
@@ -70,9 +79,7 @@ nav {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: center;
-		max-width: 1000;
-
+		justify-content: space-around;
 		grid-template-areas:
 		"logo logo logo logo nav nav nav nav";
 	}
