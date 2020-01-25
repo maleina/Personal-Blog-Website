@@ -1,3 +1,7 @@
+/* Style settings for featured_story.html page */
+/* Style can be applied to any blog feature story */
+
+/* Main blog content section */
 .blog-content{
 	margin: 0 10px;
 }
@@ -10,6 +14,7 @@
 	font-size: 0.9em;
 }
 
+/* Photo section settings */
 .photo-container {
 	display: flex;
 	flex-direction: column;
@@ -27,13 +32,16 @@
 	max-width: 100%;
 }
 
+/* Default/mobile/tablet settings hide sidebar */
+/* Display author info, social buttons, and archive at bottom */
+.sidebar {
+	display: none;
+}
+
+/* Author information */
 .author-info-bottom {
 	font-size: 0.9em;
 	margin: 0 5px;
-}
-
-.sidebar {
-	display: none;
 }
 
 .author-details {
@@ -50,6 +58,7 @@
 	margin: 0 10px;
 }
 
+/* Social sharing buttons */
 .share-buttons-bottom {
 	display: flex;
 	flex-direction: row;
@@ -65,68 +74,34 @@
 }
 
 .icon-credits {
-	font-size: 0.8em;
+	font-size: 0.7em;
+	text-align: center;
 }
 
+/* Archive */
 .archive{
 	text-align: center;
 	font-size: 0.9em;
 }
 
-.archive-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
-}
-
 .archive-link {
 	color: black;
-	text-decoration: none;
 }
 
-.archive-link:hover {
-	color: red;
-}
-
-@media(min-width: 600px) {
-	/*
-	.article-photo {
-		min-width: 550px;
-		height: auto;
-	}
-
-	.photo-caption {
-		max-width: 550px;
-	}
-
-	.author-bio{
-		margin: 0 0px 0 -10px;
-	}
-	*/
-}
-
-
-
+/* Larger screens have sidebar to display */
+/* archive links, author details and social buttons */
 @media(min-width: 901px) {
 
+	/* Content left-justified for larger screens */
 	.blog-content {
 		align-items: flex-start;
-		/*max-width: 1900px;*/
 	}
 
 	.article-title {
 		text-align: left;
-		/*margin-left: 15px;*/
 	}
 
-	.sidebar {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		/*background: #edebeb;*/
-		padding: 5px 0;
-	}
+	/* Container for photo and sidebar columns */
 	.large-top-two-cols {
 		display: flex;
 		flex-direction: row;
@@ -140,17 +115,23 @@
 	}
 
 	.article-photo {
-		width: 100
-
-
-		%;
+		width: 100%;
 		height: auto;
 	}
 
 	.photo-caption {
-		max-width: 90%;
+		max-width: 100%;
 	}
 
+	/* Sidebar visible */
+	.sidebar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 5px 5px 5px 15px;
+	}
+
+	/* Author information */
 	.author-info-top {
 		font-size: 0.8em;
 		margin: 0 5px;
@@ -158,12 +139,8 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		width: 300px;
+		width: 250px;
 		background: #ebeced;
-	}
-
-	.author-info-bottom {
-		display: none;
 	}
 
 	.author-details {
@@ -171,9 +148,10 @@
 	}
 
 	.author-bio {
-		margin: 5px;
+		margin: 5px 10px;
 	}
 
+	/* Social sharing buttons */
 	.share-buttons-top {
 		display: flex;
 		flex-direction: row;
@@ -188,15 +166,18 @@
 		margin: 0 15px;
 	}
 
-	.share-buttons-bottom {
-		display: none;
-	}
 
+	/* Article left justified for larger screens */
 	.main-text {
 		margin-left: 10px;
 	}
 
+	/* Hide author, sharing and archive on bottom */
+	/* since sidebar is used */
+	.author-info-bottom,
+	.share-buttons-bottom,
 	.archive-bottom {
 		display: none;
 	}
+
 }

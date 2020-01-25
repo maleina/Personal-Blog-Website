@@ -1,135 +1,190 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Journeys - Featured Story</title>
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&display=swap">
+        <meta charset = "utf-8">
+        <title>Journeys - Feature - Ragasthan Markets</title>
+        <link rel = "stylesheet" href = "../css/style.css">
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Lobster&display=swap">
     </head>
     <body>
-    	<div class = "overall-container">
-    	<div class = "page-container">
-			<header class = "box">
-    			<div class = "logo-container">
-    				<div class = "logo box"><h1>Journeys</h1></div>
-    			</div>
-    			<nav class = "box">
-    				<a class = nav-item href = "../index.html">Home</a>
-    				<a class = nav-item href = "../index.html">About</a>
-    				<a class = nav-item href = "../index.html">Contact</a>
-    			</nav>
-    		</header>
-    		<div class = "content box">
-    			<div class = "blog-content box">
-    			<div class = "article-title box"><h1>Exploring Rajasthan's Vibrant Markets</h1></div>
-    			<div class = "large-top-two-cols">
-	    			<div class = photo-container>
-		    			<img class = "article-photo box" src = "../images/IMG_1491.jpeg" alt = "Bulap Sacks at a Market">
-		    			<p class = "photo-caption">Besides fruits and vegetables, one can find other items such as potato chips, candies, chickpeas and rice in sacks in the market.</p>
+    	<div class = "global-container">
+	    	<div class = "page-container">
+				<header class = "box">
+	    			<div class = "logo box">
+	    				<h1>Journeys</h1>
 	    			</div>
-	    			<div class = sidebar>
+	    			<nav class = "box">
+	    				<a class = nav-item href = "../index.html">Home</a>
+	    				<a class = nav-item href = "../index.html">About</a>
+	    				<a class = nav-item href = "../index.html">Contact</a>
+	    			</nav>
+	    		</header>
+	    		<div class = "content box">
+	    			<!-- Need a separate container to more easily accomodate two cols for larger screens-->
+	    			<div class = "blog-content box">
+		    			<div class = "article-title box">
+		    				<h1>Exploring Rajasthan's Vibrant Markets</h1>
+		    			</div>
+		    			<!-- Two columns only appear on larger screens-->
+		    			<div class = "large-top-two-cols">
+			    			<div class = photo-container>
+				    			<img class = "article-photo box" src = "../images/IMG_1491.jpeg" alt = "Bulap Sacks at a Market">
+				    			<caption>
+				    				<p class = "photo-caption">Besides fruits and vegetables, one can find other items such as potato chips, candies, chickpeas and rice in sacks in the market.</p>
+				    			</caption>
+			    			</div>
+			    			<!-- The sidebar only appears for large screens-->
+			    			<!-- Otherwise, this information is at the bottom of the page-->
+			    			<div class = sidebar>
+				    			<div class = "archive">
+				    				<p>
+				    					<strong>Archive</strong>
+				    				</p>
+				    				<ul>
+				    					<li>
+				    						<a href = "" class = "archive-link">January 2020</a>
+				    					</li>
+				    					<li>
+				    						<a href = "" class = "archive-link">December 2019</a>
+				    					</li>
+				    					<li>
+				    						<a href = "" class = "archive-link">Novemver 2019</a>
+				    					</li>
+				    				</ul>
+				    			</div>
+				    			<hr>
+				    			<div class = "author-info-top">
+				    				<p>
+				    					<strong>About the Author</strong>
+				    				</p>
+				    				<div class = "author-details box">
+				    					<img class = "author-photo" src = "../images/P3060373.png" alt = "Photo of Author">
+				    					<p class = "author-id">
+				    						<strong>Maleina Bidek</strong>
+				    						<br>
+				    						<em>Travel Writer</em>
+				    						<br>
+				    						<em>Journeys Travels</em>
+				    					</p>
+				    				</div>
+				    				<p class = "author-bio">
+				    					<em>Maleina is an experienced world-traveler who also has a passion for technology and website design. She has visited over 70 counties on six continents. Her current project involves documenting her travel experiences on the Journeys website.</em>
+				    				</p>
+				    			</div>
+				    			<hr>
+				    			<div class = "share-buttons-top">
+						    		<a href = "http://www.facebook.com">
+						    			<img class = "social-button" src = "../images/facebook.png" alt = "Share on Facebook">
+						    		</a>
+						    		<a href = "http://www.twitter.com">
+						    			<img class = "social-button" src = "../images/twitter.png" alt = "Share on Twitter">
+						    		</a>
+						    		<a href = "http://www.linkedin.com">
+						    			<img class = "social-button" src = "../images/linkedin.png" alt = "Share on LinkedIn">
+						    		</a>
+						    		<div class = "icon-credits">
+										<p>
+											Icons made by
+											<a href = "https://www.flaticon.com/<?=_('authors/')?>freepik" title = "Freepik">Freepik</a>
+											from <a href = "https://www.flaticon.com/" title = "Flaticon"> www.flaticon.com</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+		    			<article class = main-text>
+		    				<div class = "dateline box">
+		    					<p>
+		    						<em>January 23, 2020, Udaipur</em>
+		    					</p>
+		    				</div>
+		    				<h2>Aliquam rhoncus egestas volutpat</h2>
+		    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ipsum at gravida pharetra. Sed dui purus, tristique sollicitudin dolor consequat, blandit sagittis eros. Sed faucibus sapien vitae leo fermentum varius. Sed et lorem eu tortor tempus euismod in sed lorem. Aliquam rhoncus egestas volutpat. Integer sapien dolor, tempus non tempus eget, dictum ac tellus. Praesent vitae ante libero. Ut eu magna non leo aliquam commodo. Sed mattis neque in neque luctus dapibus. Nulla non ullamcorper elit. Ut dictum massa a lectus aliquet imperdiet. Nulla eu pharetra nisl.</p>
+
+		    				<p>Fusce sit amet risus sed eros volutpat iaculis nec eget justo. Maecenas vulputate vel ipsum at tristique. Vestibulum aliquam, erat commodo lacinia dapibus, arcu ante maximus urna, ut finibus turpis erat a diam. Nunc maximus quis enim in interdum. Fusce rutrum est at rhoncus venenatis. Sed dignissim odio eget ipsum suscipit, et aliquet nisi malesuada. Donec ac orci id eros maximus hendrerit ac at nisl. Pellentesque porta molestie ex, et pharetra ipsum sodales quis. Cras aliquam odio et pharetra dictum.</p>
+
+		    				<p>In hac habitasse platea dictumst. Suspendisse vitae mi urna. Sed in eros sed sem aliquet egestas. Nulla lorem arcu, feugiat sed elit sit amet, mollis vulputate felis. Nunc eu faucibus erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac fringilla sem, sed sodales lorem.</p>
+
+		    				<p>Aliquam scelerisque diam sem, in auctor ante hendrerit at. Morbi a suscipit augue. Pellentesque at blandit erat. Quisque dolor purus, porta in justo accumsan, blandit varius nisi. Curabitur eleifend turpis eu commodo pulvinar. Aliquam erat volutpat. <em>Nulla dictum laoreet sapien, euismod convallis arcu condimentum et. Proin tincidunt tristique sapien, et varius purus ultricies nec. Duis ac tristique nisi.</em></p>
+
+		    				<h2>Pellentesque vitae leo</h2>
+		    				<p>Nam enim erat, consequat a congue id, accumsan vitae felis. Quisque purus ex, euismod sed tincidunt quis, porttitor non elit. Quisque eget vehicula sem. Morbi sed mollis nibh. Ut risus nibh, convallis nec posuere vel, pellentesque id nulla. Suspendisse pellentesque libero quis luctus elementum. Sed rhoncus justo elit, vel cursus libero laoreet vel. Donec mattis urna non lacus lobortis dapibus sit amet et nisi. Duis malesuada interdum orci a pretium. Pellentesque vitae leo ac dolor <strong>egestas blandit sed id orci.</strong> Donec eu efficitur ligula, non tincidunt felis. Donec egestas enim nec mi convallis luctus. Integer maximus eu nisl vitae fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed quis velit ut felis semper dignissim.</p>
 
 
-	    			<div class = "archive">
-	    				<p><strong>Archive</strong></p>
-	    				<ul class = "archive-list">
-	    					<li><a href = "" class = "archive-link">January 2020</a></li>
-	    					<li><a href = "" class = "archive-link">December 2019</a></li>
-	    					<li><a href = "" class = "archive-link">Novemver 2019</a></li>
-	    				</ul>
+							<p>Donec aliquam tincidunt arcu vel convallis. Aenean vehicula ipsum in turpis tincidunt, nec pulvinar leo posuere. Vestibulum cursus mauris sit amet nunc tempor fermentum. Ut cursus ex sit amet odio sodales pulvinar. Morbi ligula erat, euismod nec ante in, varius ullamcorper tortor. Sed in tempor dolor. Nulla sit amet ligula mi. Aenean pellentesque venenatis eros, et consectetur nulla luctus a. Nulla eget feugiat justo. Sed non fermentum lectus. Fusce dui libero, condimentum nec ullamcorper nec, maximus vel urna. Donec eu lacinia ex. In hac habitasse platea dictumst. Aliquam nisi arcu, gravida at viverra a, pharetra eget est. Integer pretium sed lectus sed consectetur.</p>
+
+							<p>Pellentesque eleifend purus non varius molestie. Praesent at elit vitae orci auctor vulputate sit amet id ipsum. Phasellus sagittis, nulla a volutpat aliquam, erat libero placerat ante, sed facilisis justo orci at tellus. Suspendisse cursus interdum sodales. Sed egestas quam id turpis facilisis ornare. Ut vehicula velit id pharetra dapibus. Morbi a elit nec risus pretium malesuada.</p>
+
+							<blockquote cite = "https://www.brainyquote.com/quotes/socrates_122574">
+								<p>Employ your time in improving yourself by other men's writings, so that you shall gain easily what others have labored hard for. -
+									<a class = "quote" href = "https://en.wikipedia.org/wiki/Socrates">Socratates</a>
+								</p>
+							</blockquote>
+
+							<h2>Sed sodales lorem</h2>
+							<p>In fringilla volutpat quam a tempor. Morbi facilisis sit amet ligula ac fringilla. Integer congue fringilla massa eu porta. Nulla facilisi. Nunc at rhoncus quam, a finibus mi. Sed et fringilla elit, eget blandit dolor. Nam convallis dui et tortor laoreet, non vehicula lorem congue. Maecenas ut tristique velit. Mauris quis ultrices enim. Nulla consectetur neque nibh, sed aliquam metus fringilla gravida. Vestibulum sodales vestibulum diam, mollis congue ante gravida ac. Ut porttitor turpis et nisl tristique egestas.</p>
+
+							<h3>Leo congue vestibulum</h3>
+							<p>Ut accumsan dolor et leo congue vestibulum. Vivamus vulputate eros at arcu dignissim, sit amet eleifend lacus tristique. Nullam hendrerit ac libero ut imperdiet. Vestibulum auctor ante felis, et sodales arcu molestie eget. Sed efficitur tempus ante sit amet ornare. Suspendisse ultricies tempus varius. Cras malesuada nisl fringilla lacus facilisis viverra.</p>
+
+							<p>Fusce eget velit sit amet urna pulvinar auctor. Nulla sodales, orci at tincidunt tincidunt, velit turpis rutrum nunc, ut dictum sapien urna et ante. Duis justo eros, luctus ac nunc et, venenatis blandit sem. Nunc eget posuere leo. Mauris in massa mauris. Nulla quis leo vitae orci dignissim sagittis. Integer ex nulla, cursus vitae gravida a, dapibus vitae ligula. Mauris faucibus nisl sed orci malesuada, tristique hendrerit nisl pretium. In id nisi magna. Aenean at tincidunt libero. In leo metus, egestas blandit eleifend non, viverra vitae lectus. Nullam eget consectetur lorem, sed viverra quam.</p>
+
+		    			</article>
+		    			<!-- Default/smaller screens is that author info, archive, social buttons at bottom -->
+		    			<div class = "author-info-bottom">
+		    				<hr>
+		    				<div class = "author-details box">
+		    					<img class = "author-photo" src = "../images/P3060373.png" alt = "Photo of Author">
+		    					<p class = "author-id">
+		    						<strong>Maleina Bidek</strong>
+		    						<br>
+		    						<em>Travel Writer</em>
+		    						<br>
+		    						<em>Journeys Travels</em>
+		    					</p>
+		    				</div>
+		    				<p class = "author-bio">
+		    					<em>Maleina is an experienced world-traveler who also has a passion for technology and website design. She has visited over 70 counties on six continents. Her current project involves documenting her travel experiences on the Journeys website.</em>
+		    				</p>
+		    				<hr>
+			    		</div>
 	    			</div>
-	    			<hr>
-
-	    			<div class = "author-info-top">
-	    				<p><strong>About the Author</strong></p>
-	    				<div class = "author-details box">
-
-	    					<img class = "author-photo" src = "../images/P3060373.png" alt = "Photo of Author">
-	    					<p class = "author-id"><strong>Maleina Bidek</strong><br>
-	    						<em>Travel Writer</em><br>
-	    						<em>Journeys Travels</em>
+	    			<div class = "archive archive-bottom">
+		    			<p>
+		    				<strong>Archive</strong>
+		    			</p>
+		    				<ul>
+		    					<li>
+		    						<a href = "" class = "archive-link">January 2020</a>
+		    					</li>
+		    					<li>
+		    						<a href = "" class = "archive-link">December 2019</a>
+		    					</li>
+		    					<li>
+		    						<a href = "" class = "archive-link">Novemver 2019</a>
+		    					</li>
+		    				</ul>
+		    		</div>
+		    		<hr>
+		    		<div class = "share-buttons-bottom box">
+		    			<a href = "http://www.facebook.com">
+		    				<img class = "social-button" src = "../images/facebook.png" alt = "Share on Facebook">
+		    			</a>
+		    			<a href = "http://www.twitter.com">
+		    				<img class = "social-button" src = "../images/twitter.png" alt = "Share on Twitter">
+		    			</a>
+		    			<a href = "http://www.linkedin.com">
+		    				<img class = "social-button" src = "../images/linkedin.png" alt = "Share on LinkedIn">
+		    			</a>
+		    			<div class = "icon-credits">
+	    					<p>Icons made by
+	    						<a href = "https://www.flaticon.com/<?=_('authors/')?>freepik" title = "Freepik">Freepik</a> from <a href = "https://www.flaticon.com/" title = "Flaticon"> www.flaticon.com</a>
 	    					</p>
 	    				</div>
-	    				<p class = "author-bio"><em>Maleina is an experienced world-traveler who also has a passion for technology and website design. She has visited over 70 counties on six continents. Her current project involves documenting her travel experiences on the Journeys website.</em></p>
-
-
-	    			</div>
-
-	    			<hr>
-
-	    			<div class = "share-buttons-top">
-			    		<a href = "http://www.facebook.com"><img class = "social-button" src = "../images/facebook.png" alt = "Share on Facebook"></a>
-			    		<a href = "http://www.twitter.com"><img class = "social-button" src = "../images/twitter.png" alt = "Share on Twitter"></a>
-			    		<a href = "http://www.linkedin.com"><img class = "social-button" src = "../images/linkedin.png" alt = "Share on LinkedIn"></a>
-			    		<div class = "icon-credits">
-							<p>Icons made by <a href = "https://www.flaticon.com/<?=_('authors/')?>freepik" title = "Freepik">Freepik</a> from <a href = "https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-						</div>
-					</div>
-
-				</div>
-				</div>
-    			<article class = main-text>
-    				<div class = "dateline box"><p><em>January 23, 2020, Udaipur</em></p></div>
-    				<h2>Aliquam rhoncus egestas volutpat</h2>
-    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ipsum at gravida pharetra. Sed dui purus, tristique sollicitudin dolor consequat, blandit sagittis eros. Sed faucibus sapien vitae leo fermentum varius. Sed et lorem eu tortor tempus euismod in sed lorem. Aliquam rhoncus egestas volutpat. Integer sapien dolor, tempus non tempus eget, dictum ac tellus. Praesent vitae ante libero. Ut eu magna non leo aliquam commodo. Sed mattis neque in neque luctus dapibus. Nulla non ullamcorper elit. Ut dictum massa a lectus aliquet imperdiet. Nulla eu pharetra nisl.</p>
-
-    				<p>Fusce sit amet risus sed eros volutpat iaculis nec eget justo. Maecenas vulputate vel ipsum at tristique. Vestibulum aliquam, erat commodo lacinia dapibus, arcu ante maximus urna, ut finibus turpis erat a diam. Nunc maximus quis enim in interdum. Fusce rutrum est at rhoncus venenatis. Sed dignissim odio eget ipsum suscipit, et aliquet nisi malesuada. Donec ac orci id eros maximus hendrerit ac at nisl. Pellentesque porta molestie ex, et pharetra ipsum sodales quis. Cras aliquam odio et pharetra dictum.</p>
-
-    				<p>In hac habitasse platea dictumst. Suspendisse vitae mi urna. Sed in eros sed sem aliquet egestas. Nulla lorem arcu, feugiat sed elit sit amet, mollis vulputate felis. Nunc eu faucibus erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac fringilla sem, sed sodales lorem.</p>
-
-    				<p>Aliquam scelerisque diam sem, in auctor ante hendrerit at. Morbi a suscipit augue. Pellentesque at blandit erat. Quisque dolor purus, porta in justo accumsan, blandit varius nisi. Curabitur eleifend turpis eu commodo pulvinar. Aliquam erat volutpat. Nulla dictum laoreet sapien, euismod convallis arcu condimentum et. Proin tincidunt tristique sapien, et varius purus ultricies nec. Duis ac tristique nisi.</p>
-
-    				<h2>Pellentesque vitae leo</h2>
-    				<p>Nam enim erat, consequat a congue id, accumsan vitae felis. Quisque purus ex, euismod sed tincidunt quis, porttitor non elit. Quisque eget vehicula sem. Morbi sed mollis nibh. Ut risus nibh, convallis nec posuere vel, pellentesque id nulla. Suspendisse pellentesque libero quis luctus elementum. Sed rhoncus justo elit, vel cursus libero laoreet vel. Donec mattis urna non lacus lobortis dapibus sit amet et nisi. Duis malesuada interdum orci a pretium. Pellentesque vitae leo ac dolor egestas blandit sed id orci. Donec eu efficitur ligula, non tincidunt felis. Donec egestas enim nec mi convallis luctus. Integer maximus eu nisl vitae fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed quis velit ut felis semper dignissim.</p>
-
-
-					<p>Donec aliquam tincidunt arcu vel convallis. Aenean vehicula ipsum in turpis tincidunt, nec pulvinar leo posuere. Vestibulum cursus mauris sit amet nunc tempor fermentum. Ut cursus ex sit amet odio sodales pulvinar. Morbi ligula erat, euismod nec ante in, varius ullamcorper tortor. Sed in tempor dolor. Nulla sit amet ligula mi. Aenean pellentesque venenatis eros, et consectetur nulla luctus a. Nulla eget feugiat justo. Sed non fermentum lectus. Fusce dui libero, condimentum nec ullamcorper nec, maximus vel urna. Donec eu lacinia ex. In hac habitasse platea dictumst. Aliquam nisi arcu, gravida at viverra a, pharetra eget est. Integer pretium sed lectus sed consectetur.</p>
-
-					<p>Pellentesque eleifend purus non varius molestie. Praesent at elit vitae orci auctor vulputate sit amet id ipsum. Phasellus sagittis, nulla a volutpat aliquam, erat libero placerat ante, sed facilisis justo orci at tellus. Suspendisse cursus interdum sodales. Sed egestas quam id turpis facilisis ornare. Ut vehicula velit id pharetra dapibus. Morbi a elit nec risus pretium malesuada.</p>
-
-					<h2>Sed sodales lorem</h2>
-					<p>In fringilla volutpat quam a tempor. Morbi facilisis sit amet ligula ac fringilla. Integer congue fringilla massa eu porta. Nulla facilisi. Nunc at rhoncus quam, a finibus mi. Sed et fringilla elit, eget blandit dolor. Nam convallis dui et tortor laoreet, non vehicula lorem congue. Maecenas ut tristique velit. Mauris quis ultrices enim. Nulla consectetur neque nibh, sed aliquam metus fringilla gravida. Vestibulum sodales vestibulum diam, mollis congue ante gravida ac. Ut porttitor turpis et nisl tristique egestas.</p>
-
-					<p>Ut accumsan dolor et leo congue vestibulum. Vivamus vulputate eros at arcu dignissim, sit amet eleifend lacus tristique. Nullam hendrerit ac libero ut imperdiet. Vestibulum auctor ante felis, et sodales arcu molestie eget. Sed efficitur tempus ante sit amet ornare. Suspendisse ultricies tempus varius. Cras malesuada nisl fringilla lacus facilisis viverra.</p>
-
-					<p>Fusce eget velit sit amet urna pulvinar auctor. Nulla sodales, orci at tincidunt tincidunt, velit turpis rutrum nunc, ut dictum sapien urna et ante. Duis justo eros, luctus ac nunc et, venenatis blandit sem. Nunc eget posuere leo. Mauris in massa mauris. Nulla quis leo vitae orci dignissim sagittis. Integer ex nulla, cursus vitae gravida a, dapibus vitae ligula. Mauris faucibus nisl sed orci malesuada, tristique hendrerit nisl pretium. In id nisi magna. Aenean at tincidunt libero. In leo metus, egestas blandit eleifend non, viverra vitae lectus. Nullam eget consectetur lorem, sed viverra quam.</p>
-
-    			</article>
-    			<div class = "author-info-bottom">
-    				<hr>
-    				<div class = "author-details box">
-    					<img class = "author-photo" src = "../images/P3060373.png" alt = "Photo of Author">
-    					<p class = "author-id"><strong>Maleina Bidek</strong><br>
-    						<em>Travel Writer</em><br>
-    						<em>Journeys Travels</em>
-    					</p>
-    				</div>
-    				<p class = "author-bio"><em>Maleina is an experienced world-traveler who also has a passion for technology and website design. She has visited over 70 counties on six continents. Her current project involves documenting her travel experiences on the Journeys website.</em></p>
-    				<hr>
+		    		</div>
 	    		</div>
-    			</div>
-    			<div class = "archive archive-bottom">
-	    			<p><strong>Archive</strong></p>
-	    				<ul class = "archive-list">
-	    					<li><a href = "" class = "archive-link">January 2020</a></li>
-	    					<li><a href = "" class = "archive-link">December 2019</a></li>
-	    					<li><a href = "" class = "archive-link">Novemver 2019</a></li>
-	    				</ul>
-	    		</div>
-	    		<hr>
-	    		<div class = "share-buttons-bottom box">
-	    			<a href = "http://www.facebook.com"><img class = "social-button" src = "../images/facebook.png" alt = "Share on Facebook"></a>
-	    			<a href = "http://www.twitter.com"><img class = "social-button" src = "../images/twitter.png" alt = "Share on Twitter"></a>
-	    			<a href = "http://www.linkedin.com"><img class = "social-button" src = "../images/linkedin.png" alt = "Share on LinkedIn"></a>
-	    			 <div class = "icon-credits">
-    					<p>Icons made by <a href = "https://www.flaticon.com/<?=_('authors/')?>freepik" title = "Freepik">Freepik</a> from <a href = "https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-    				</div>
-	    		</div>
-
+    			<footer class = "box"> ©Maleina Bidek, 2020</footer>
     		</div>
-    		</div>
-    		<footer class = "box"> ©Maleina Bidek, 2020</footer>
-    	</div>
     	</div>
     </body>
 </html>

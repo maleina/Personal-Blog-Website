@@ -1,3 +1,5 @@
+/* Global stylesheet used to import all others */
+
 @import url(template.css);
 @import url(index.css);
 @import url(blog.css);
