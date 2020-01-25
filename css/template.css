@@ -10,7 +10,7 @@
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 200px 1ft;
-	max-width: 1200px;
+	/*max-width: 1550px;*/
 	grid-template-areas:
 	"hd"
 	"main"

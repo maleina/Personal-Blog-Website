@@ -1,3 +1,7 @@
+.blog-content{
+	margin: 0 10px;
+}
+
 .article-title {
 	text-align: center;
 }
@@ -14,13 +18,13 @@
 }
 
 .article-photo {
-	width: 300px;
+	width:100%;
 	height: auto;
 }
 
 .photo-caption {
 	font-size: 0.8em;
-	max-width: 300px;
+	max-width: 100%;
 }
 
 .author-info-bottom {
@@ -86,6 +90,7 @@
 }
 
 @media(min-width: 600px) {
+	/*
 	.article-photo {
 		min-width: 550px;
 		height: auto;
@@ -98,6 +103,7 @@
 	.author-bio{
 		margin: 0 0px 0 -10px;
 	}
+	*/
 }
 
 
@@ -111,7 +117,7 @@
 
 	.article-title {
 		text-align: left;
-		margin-left: 15px;
+		/*margin-left: 15px;*/
 	}
 
 	.sidebar {
@@ -129,12 +135,15 @@
 		width: 100%;
 	}
 
-	.photo_container {
-		width: 90%;
+	.photo-container {
+		width: 80%;
 	}
 
 	.article-photo {
-		width: 90%;
+		width: 100
+
+
+		%;
 		height: auto;
 	}
 
