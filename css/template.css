@@ -1,15 +1,6 @@
 /* Global settings for website template */
 /* i.e. header, navigation, footer, main content */
 
-/* Global container */
-/*Ensure content is always centered on the page */
-.global-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center
-}
-
 /* Site-wide typography styling */
 h1,
 h2,
