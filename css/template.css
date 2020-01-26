@@ -46,6 +46,10 @@ em {
 	font-style: italic;
 }
 
+figure {
+	margin: 0;
+}
+
 /* Grid that defines the template for the site */
 /*i.e. header, footer, main content window*/
 .page-container {
